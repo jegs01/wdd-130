@@ -1,1 +1,61 @@
+.hero {
+
+    position: relative;
+
+}
+
+
+
+.herro h1,
+
+.hero article {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+}
+
+
+
+.hero article img {
+
+    float: right;
+
+    margin: 0 0 10px 10px;
+
+}
+
+
+
+.hero h1 {
+
+    color: #333;
+
+}
+
+
+
+.hero img {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+
+
+.hero p {
+
+    color: #555;
+
+}
+
 
