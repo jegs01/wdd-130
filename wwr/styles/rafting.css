@@ -1,60 +1,52 @@
 .hero {
-
     position: relative;
-
 }
-
-
-
-.herro h1,
-
-.hero article {
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-}
-
-
-
-.hero article img {
-
-    float: right;
-
-    margin: 0 0 10px 10px;
-
-}
-
-
 
 .hero h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+}
 
-    color: #333;
+.hero article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
 
 }
 
+.hero article img {
+    float: right;
+    margin: 0 0 10px 10px;
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    right: 0;
+    padding-top: 10%;
+}
 
+.hero h1 {
+    color: #333;
+}
 
 .hero img {
-
     display: block;
-
     width: 100%;
-
-    height: auto;
+    height: 600px;
 
 }
 
-
-
 .hero p {
-
     color: #555;
+}
+
+.article {
+    padding: 280px 10px;
 
 }
 
