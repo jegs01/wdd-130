@@ -150,3 +150,51 @@ footer {
     margin: 0;
     text-align: center;
 }
+
+/* Styles for employee profiles on contact page */
+.employee-profile {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+.employee-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+/* Styles for the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
