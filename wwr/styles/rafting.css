@@ -2,50 +2,44 @@
     position: relative;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: aquamarine;
-    text-align: center;
-    color: #333;
-}
-
-.hero article {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: left;
-
-}
-
-.hero article img {
-    float: right;
-    margin: 0 0 10px 10px;
-    position: absolute;
-    width: 20%;
-    height: 200px;
-    right: 0;
-    padding-top: 10%;
-}
-
 .hero img {
     display: block;
     width: 100%;
-    height: 600px;
-
+    height: auto;
 }
 
-.hero p {
-    color: #555;
+.content {
+    position: absolute;
+    top: 50%; /* Position at the center vertically */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%); /* Move up by half of its own height */
 }
 
-.article {
-    padding: 280px 10px;
-
+.hero h1 {
+    background-color: rgba(127, 255, 212, 0.7);
+    color: #333;
+    padding: 10px;
+    margin-bottom: 300px; /* Add some spacing between company name and article */
 }
+
+.hero article {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.hero article img {
+    float: right; /* Float the image to the right */
+    width: 15%; /* Reduce the image width */
+    margin-left: 20px; /* Add some space between the image and text */
+}
+
+.hero article p.article {
+    margin-right: 35%; 
+}
+
+
 
 /* Header styles */
 header {
@@ -147,6 +141,7 @@ footer {
     margin: 0;
     text-align: center;
 }
+
 
 /* Styles for employee profiles on contact page */
 .employee-profile {
