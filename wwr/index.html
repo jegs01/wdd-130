@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Company | WDD 130</title>
+    <meta name="description" content="Homepage| WDD130">
+    <meta name="author" content="Kolawole Jegede">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero1">
+        
+        <img src="images/homeraft.jpg" alt="Hero image">
+        <div class="content1">
+            <h1>HAVE AN ADVENTURE</h1>
+            <p>Experience the thrill of river rafting with us!</p>
+            <a href="#contact" class="btn">Book Your Adventure</a>
+           
+        </div>
+
+    </div>
+    <div class="container3">
+        <h2>Sign up for newsletter</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Adventures Section -->
+    <section class="adventure">
+        <h2>Our Adventures</h2>
+        <div class="adventure-grid">
+            <div class="adventure-card">
+                <img src="images/adventure1.jpg" alt="Adventure 1">
+                <h3>White Water Rafting</h3>
+                <p>Conquer the rapids of the mighty river!</p>
+                <a href="trips.html" class="btn">View Trips</a>
+            </div>
+            <div class="adventure-card">
+                <img src="images/adventure2.jpg" alt="Adventure 2">
+                <h3>Scenic River Tours</h3>
+                <p>Relax and enjoy the beauty of nature on a calm river tour.</p>
+                <a href="trips.html" class="btn">View Trips</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Book With Us</h2>
+        <p>Ready to book your adventure? Book now!</p>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>©2024 🌴 Rafting Company 🌴 Kolawole Jegede</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebok.jpeg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta.png" alt="Instagram">
+            </a>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
