@@ -17,6 +17,19 @@
     transform: translateY(-50%); /* Move up by half of its own height */
 }
 
+.hero1 {
+    position: relative;
+  }
+
+.hero1 h1 {
+    font-style: italic; /* Italicize the text */
+    font-family: 'Permanent Marker', cursive;
+    color: blue;
+}
+
+.hero1 img {
+    width: 100%;
+}
 .hero h1 {
     background-color: rgba(127, 255, 212, 0.7);
     color: #333;
@@ -194,4 +207,116 @@ button[type="submit"]:hover {
 
 .map {
     border: 0;
+}
+
+
+/* Adventures Section Styles */
+.adventure {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.adventure h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.adventure-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.adventure-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.adventure-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.adventure-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.adventure-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%; /* Make the image responsive */
+    display: block;
+  }
+  
+.content1 {
+position: absolute;
+top: 10px; /* Adjust top position as needed */
+right: 10px; /* Adjust right position as needed */
+background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
+padding: 20px;
+border-radius: 10px;
+}
+
+.content1 h1 {
+font-size: 24px;
+font-weight: bold;
+color: orange;
+}
+
+.content1 p {
+font-size: 18px;
+color: #333;
+}
+  
+
+.btn {
+    background-color: #ff9900; /* Orange background */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.btn:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Optional: adjust the height as needed */
+}
+
+.container3 h2 {
+    margin-bottom: 20px; /* Optional: add spacing between heading and form */
+}
+.contact {
+    text-align: center; /* Center-align the content horizontally */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the content vertically */
+    justify-content: center; /* Center-align the content horizontally */
+}
+
+.container h2,
+.container p {
+    margin-bottom: 20px; /* Optional: add spacing between elements */
 }
