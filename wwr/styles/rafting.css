@@ -26,20 +26,22 @@
 
 .hero article {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
+    padding: 25px;
 }
 
 .hero article img {
     float: right; /* Float the image to the right */
-    width: 15%; /* Reduce the image width */
-    margin-left: 20px; /* Add some space between the image and text */
+    width: 12%; /* Reduce the image width */
+    margin-left: 10px; /* Add some space between the image and text */
 }
 
 .hero article p.article {
-    margin-right: 35%; 
+    margin-right: 15%; 
 }
 
-
+.center-align {
+    text-align: center;
+}
 
 /* Header styles */
 header {
