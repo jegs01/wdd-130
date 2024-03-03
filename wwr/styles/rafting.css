@@ -1,3 +1,6 @@
+/* General Styles */
+
+/* Hero Section Styles */
 .hero {
     position: relative;
 }
@@ -10,31 +13,18 @@
 
 .content {
     position: absolute;
-    top: 50%; /* Position at the center vertically */
+    top: 50%;
     left: 0;
     width: 100%;
     text-align: center;
-    transform: translateY(-50%); /* Move up by half of its own height */
+    transform: translateY(-50%);
 }
 
-.hero1 {
-    position: relative;
-  }
-
-.hero1 h1 {
-    font-style: italic; /* Italicize the text */
-    font-family: 'Permanent Marker', cursive;
-    color: blue;
-}
-
-.hero1 img {
-    width: 100%;
-}
 .hero h1 {
     background-color: rgba(127, 255, 212, 0.7);
     color: #333;
     padding: 10px;
-    margin-bottom: 300px; /* Add some spacing between company name and article */
+    margin-bottom: 300px;
 }
 
 .hero article {
@@ -43,20 +33,31 @@
 }
 
 .hero article img {
-    float: right; /* Float the image to the right */
-    width: 12%; /* Reduce the image width */
-    margin-left: 10px; /* Add some space between the image and text */
+    float: right;
+    width: 12%;
+    margin-left: 10px;
 }
 
 .hero article p.article {
-    margin-right: 15%; 
+    margin-right: 15%;
 }
 
-.center-align {
-    text-align: center;
+/* Hero1 Section Styles */
+.hero1 {
+    position: relative;
 }
 
-/* Header styles */
+.hero1 h1 {
+    font-style: italic;
+    font-family: 'Permanent Marker', cursive;
+    color: blue;
+}
+
+.hero1 img {
+    width: 100%;
+}
+
+/* Header Styles */
 header {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -82,17 +83,17 @@ nav a {
     font-weight: bold;
 }
 
-/* Main styles */
+/* Main Styles */
 main {
     padding: 20px;
 }
 
-/* History section styles */
+/* History Section Styles */
 section {
     margin-bottom: 20px;
 }
 
-/* Adventures section styles */
+/* Adventures Section Styles */
 section h2 {
     margin-bottom: 10px;
 }
@@ -103,7 +104,7 @@ section img {
     margin-bottom: 10px;
 }
 
-/* Footer styles */
+/* Footer Styles */
 footer {
     background-color: #333;
     color: white;
@@ -157,28 +158,31 @@ footer {
     text-align: center;
 }
 
-
-/* Styles for employee profiles on contact page */
+/* Employee Profiles Styles */
 .employee-profile {
     display: inline-block;
     text-align: center;
     margin: 20px;
 }
+
 .employee-profile img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-/* Styles for the form */
+
+/* Form Styles */
 form {
     max-width: 500px;
     margin: 0 auto;
 }
+
 label {
     display: block;
     margin-bottom: 5px;
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -189,10 +193,12 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 input[type="radio"],
 input[type="checkbox"] {
     margin-right: 5px;
 }
+
 button[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -201,6 +207,7 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
 }
+
 button[type="submit"]:hover {
     background-color: #45a049;
 }
@@ -208,7 +215,6 @@ button[type="submit"]:hover {
 .map {
     border: 0;
 }
-
 
 /* Adventures Section Styles */
 .adventure {
@@ -255,118 +261,54 @@ button[type="submit"]:hover {
     margin-bottom: 20px;
 }
 
-.image {
-    width: 100%; /* Make the image responsive */
-    display: block;
-  }
-  
-.content1 {
-position: absolute;
-top: 10px; /* Adjust top position as needed */
-right: 10px; /* Adjust right position as needed */
-background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
-padding: 20px;
-border-radius: 10px;
-}
-
-.content1 h1 {
-font-size: 24px;
-font-weight: bold;
-color: orange;
-}
-
-.content1 p {
-font-size: 18px;
-color: #333;
-}
-  
-
-.btn {
-    background-color: #ff9900; /* Orange background */
-    color: #fff; /* White text color */
-    padding: 10px 20px; /* Padding around text */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth color transition */
-}
-
-.btn:hover {
-    background-color: #e68a00; /* Darker orange on hover */
-}
-
-.container3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Optional: adjust the height as needed */
-}
-
-.container3 h2 {
-    margin-bottom: 20px; /* Optional: add spacing between heading and form */
-}
-.contact {
-    text-align: center; /* Center-align the content horizontally */
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-align the content vertically */
-    justify-content: center; /* Center-align the content horizontally */
-}
-
-.container h2,
-.container p {
-    margin-bottom: 20px; /* Optional: add spacing between elements */
-}
-
+/* CTA Section Styles */
 .cta {
-    background-color: #f0f0f0; /* Set background color */
-    padding: 20px; /* Add padding for better readability */
-    text-align: center; /* Center align content */
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
 }
 
 .cta h2 {
-    color: #333; /* Set color for heading */
+    color: #333;
 }
 
 .cta p {
-    color: #666; /* Set color for paragraph text */
+    color: #666;
 }
 
 .cta .btn {
-    background-color: #007bff; /* Set background color for button */
-    color: #fff; /* Set text color for button */
-    padding: 10px 20px; /* Add padding for button */
-    text-decoration: none; /* Remove default underline */
-    border-radius: 5px; /* Add border radius for button */
-    display: inline-block; /* Ensure button displays inline */
-    margin-top: 10px; /* Add margin to top for better spacing */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .cta .btn:hover {
-    background-color: #0056b3; /* Change background color on hover */
+    background-color: #0056b3;
 }
 
+/* Trip Section Styles */
 .trip {
-    overflow: auto; /* Clear floats */
+    overflow: auto;
 }
 
 .trip img {
-    float: left; /* Float the image to the left */
-    margin-right: 20px; /* Add margin to the right for spacing */
-    border-radius: 5px; /* Add border radius for rounded corners */
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 
 .trip h3 {
-    font-size: 24px; /* Set font size for heading */
-    color: #333; /* Set color for heading text */
+    font-size: 24px;
+    color: #333;
 }
 
 .trip p {
-    font-size: 16px; /* Set font size for paragraph */
-    color: #666; /* Set color for paragraph text */
+    font-size: 16px;
+    color: #666;
 }
 
 .trip-table {
@@ -381,29 +323,29 @@ color: #333;
 .trip-table table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid #ddd; /* Add border around table */
+    border: 2px solid #ddd;
 }
 
 .trip-table th,
 .trip-table td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd; /* Add border around cells */
+    border: 1px solid #ddd;
 }
 
 .trip-table th {
-    background-color: #f2f2f2; /* Set background color for table header */
-    color: #333; /* Set text color for table header */
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 .trip-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Set background color for even rows */
+    background-color: #f9f9f9;
 }
 
 .trip-table tbody tr:hover {
-    background-color: #f2f2f2; /* Change background color on hover */
+    background-color: #f2f2f2;
 }
 
 .trip-table td {
-    color: #555; /* Set text color for table data */
+    color: #555;
 }
