@@ -17,7 +17,7 @@ You can view the project live at [https://jegs01.github.io/wdd130/](https://jegs
 
 ## About the Developer
 
-This project was developed by **Kolawole Jegede** as part of the WDD131 course requirements. The goal was to apply and showcase the skills learned in web design, including HTML and CSS, by creating a fully functional website.
+This project was developed by **Kolawole Jegede** as part of the WDD130 course requirements. The goal was to apply and showcase the skills learned in web design, including HTML and CSS, by creating a fully functional website.
 
 ## Acknowledgments
 
